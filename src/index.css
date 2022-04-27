@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pop-up{
+  animation: createBox .50s;
+}
+@keyframes createBox {
+  0% {transform: scale(0);}
+  20% {transform: scale(.2);}
+  40% {transform: scale(.4);}
+  60% {transform: scale(.6);}
+  80% {transform: scale(.8);}
+  100% {transform: scale(1);}
+}
+/* .loader{
+  animation: spin .50s 4;
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} */
